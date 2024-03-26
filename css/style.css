@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    height: 100%;
+}
+
+h1 {
+    font-size: 3.2vw;
+}
+
+h2 {
+    font-size: 2.2vw;
+}
+
+h3 {
+    font-size: 1.8vw;
+}
+
+.mb-3 {
+    margin-bottom: 3%;
+}
+
+.inline-b {
+    display: inline-block;
+}
+
+/* HEADER */
+.header-container {
+    background-color: lightsalmon;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+}
+
+.left-header {
+    width: 30%;
+    padding-left: 2%;
+}
+
+.right-header {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+/* MAIN */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color:brown;
+    width: 100%;
+    height: 600px;
+}
+
+/* MAIN TOP */
+.main-top {
+    display: flex;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 20px;
+    flex-direction: column;
+    width: 80%;
+    height: 40%;
+}
+
+.main-top-inputs {
+    display: flex;
+    justify-content: space-around;
+    height: 60%;
+    width: 100%;
+}
+
+.main-top-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 100%;  
+
+    color: rgb(194, 1, 1);
+}
+
+.main-input {
+    text-align: center;
+    width: 80%;
+    height: 20%;
+    border: 1px solid red;
+    font-size: 1.5vw;
+    border-radius: 5px;
+    margin-top: 5%;
+}
+
+.main-top-submit {
+    display: flex;
+    justify-content: space-around;
+    height: 40%;
+    width: 100%;
+}
+
+.main-btn {
+    border: 1px solid red;
+    font-size: 2vw;
+    padding: 4% 10%;
+    border-radius: 5px;
+
+}
+
+/* MAIN BOTTOM */
+.main-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 80%;
+    height: 40%;
+}
+
+/* CARDS */
+.card {
+    display: flex;
+    width: 90%;
+    height: 80%;
+    background-color: lightcoral;
+    border-radius: 20px;
+}
+
+.card-30 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    border: 1px solid black;
+    border-radius: 20px 0 0 20px;
+    padding: 2%;
+    height: 100%;
+    width: 30%;
+}
+
+.card-25 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    padding-left: 2%;
+    height: 100%;
+    width: 25%;
+}
+
+.card-15 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    height: 100%;
+    width: 15%;
+}
+
+.r-b {
+    border-right: 1px solid black;
+    border-radius: 0 20px 20px 0;
+}
+

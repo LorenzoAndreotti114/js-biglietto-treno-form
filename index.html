@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <!-- NAVBAR -->
+        <div class="header-container">
+            <div class="left-header"><img src="./img/5a39f7962d7ed3.21106259151374837418645336.png" alt=""></div>
+
+            <div class="right-header">
+                <h1>CALCOLATORE PREZZO BIGLIETTO</h1>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- FORM -->
+        <form action="">
+            <div class="main-container">
+                <!-- CONTAINER TOP -->
+                <div class="main-top">
+                    <!-- INPUTS -->
+                    <div class="main-top-inputs">
+                        <!-- NOME -->
+                        <div class="main-top-inner">
+                            <label for="name">
+                                <h2>Nome e cognome</h2>
+                            </label>
+
+                            <input type="text" id="nameInput" name="name" class="main-input" placeholder="inserire nome"
+                                required>
+                        </div>
+
+                        <!-- KM -->
+                        <div class="main-top-inner">
+                            <label for="km">
+                                <h2>Km da percorrere</h2>
+                            </label>
+
+                            <input type="number" id="kmInput" name="km" class="main-input" placeholder="inserire Km"
+                                min="0" required>
+                        </div>
+
+                        <!-- ETA' -->
+                        <div class="main-top-inner">
+                            <label for="eta">
+                                <h2>quanti anni hai?</h2>
+                            </label>
+
+                            <input type="number" id="ageInput" name="eta" class="main-input" placeholder="inserire età"
+                                min="1" max="99" required>
+                        </div>
+                    </div>
+
+                    <!-- SUBMITS -->
+                    <div class="main-top-submit">
+                        <div class="main-top-inner">
+                            <input type="button" id="genBtn" name="btn" value="Genera" class="main-btn">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-bottom">
+
+                    <!-- BIG CARD -->
+                    <div class="card">
+
+                        <!-- NAME -->
+                        <div class="card-30">
+                            <div class="mb-3">
+                                <h2>NOME PASSEGGERO</h2>
+                            </div>
+                            <div>
+                                <h3 id="bottomName">---</h3>
+                            </div>
+                        </div>
+
+                        <!-- OFFER -->
+                        <div class="card-25">
+                            <div class="mb-3">
+                                <h2>Offerta</h2>
+                            </div>
+                            <div>
+                                <h3 id="bottomTicket">---</h3>
+                            </div>
+                        </div>
+
+                        <!-- CART -->
+                        <div class="card-15">
+                            <div class="mb-3">
+                                <h2>Carrozza</h2>
+                            </div>
+                            <div>
+                                <h3 id="bottomCart">---</h3>
+                            </div>
+                        </div>
+
+                        <!-- CODE -->
+                        <div class="card-15">
+                            <div class="mb-3">
+                                <h2>Codice</h2>
+                            </div>
+                            <div>
+                                <h3 id="bottomCode">---</h3>
+                            </div>
+                        </div>
+
+                        <!-- FINAL PRICE -->
+                        <div class="card-15 r-b">
+                            <div class="mb-3">
+                                <h2>Prezzo</h2>
+                            </div>
+                            <div>
+                                <div>€<h3 class="inline-b" id="bottomPrice">---</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </main>
+
+    <!-- SCRIPT JS -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
